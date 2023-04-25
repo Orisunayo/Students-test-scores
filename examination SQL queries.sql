@@ -1,3 +1,7 @@
+/* changing the column name of myunknowncolumn */
+ALTER TABLE education.dataorg
+RENAME COLUMN MyunknownColumn TO SN
+
 /* Calculating total number of students */
 SELECT COUNT(SN) AS num_count
 FROM education.dataorg
